@@ -12,7 +12,7 @@ public class Main {
         byte clientOS = 1;
         if (clientOS == 0){
             System.out.println("Установите версию приложения для iOS по ссылке");
-    }   else if (clientOS == 1) System.out.println("Установите версию приложения для Android по ссылке");
+        }   else if (clientOS == 1) System.out.println("Установите версию приложения для Android по ссылке");
     }
 
     private static void task2() {
@@ -41,15 +41,15 @@ public class Main {
     }
 
     private static void task4() {
-       int deliveryDistance = 95;
-       byte daysRequired = 2;
-       if (deliveryDistance <= 20) {
-           System.out.println("Потребуется дней: " + --daysRequired);
-       } else if (deliveryDistance > 20 && deliveryDistance <= 60) {
-           System.out.println("Потребуется дней: " + daysRequired);
-       } else if (deliveryDistance > 60) {
-           System.out.println("Потребуется дней: " + ++daysRequired);
-       }
+        int deliveryDistance = 95;
+        byte daysRequired = 2;
+        if (deliveryDistance <= 20) {
+            System.out.println("Потребуется дней: " + --daysRequired);
+        } else if (deliveryDistance > 20 && deliveryDistance <= 60) {
+            System.out.println("Потребуется дней: " + daysRequired);
+        } else if (deliveryDistance > 60) {
+            System.out.println("Потребуется дней: " + ++daysRequired);
+        }
     }
 
     private static void task5() {
